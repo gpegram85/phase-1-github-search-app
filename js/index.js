@@ -4,6 +4,8 @@ formSubmitBtn.addEventListener('click', searchUsername)
 
 const userContainer = document.getElementById('github-container')
 
+let isKeywordSearch = true
+
 function searchUsername(e) {
         e.preventDefault()
         const formInput = document.getElementById('search')
